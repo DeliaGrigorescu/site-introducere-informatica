@@ -1,0 +1,57 @@
+<head>
+    <link rel="stylesheet" href="page.css">
+</head>
+
+<html>
+<title>
+
+</title>
+
+<body id="page">
+    <img src="/src/Introducere.jpg" width="100%">
+    <main id="page-content" align="center">
+        <h2> Ce este un vector? </h2>
+        <p>
+            <font class="text-paragraph"> Un tablou unidimensional este o serie de elemente ale aceluiași tip de date, ce poartă numele de <i> vector </i>. </font>
+        </p>
+
+        <h2> Cum se declară în C++? </h2>
+
+        <p> <font class="text-paragraph"> Elementele sunt indexate de la zero, adică primul element este pe poziția 0 sau are indicele 0. Un vector are nevoie de trei valori pentru a fi declarat: tipul vectorului, numele și dimensiunea, care arată ce tip de date au elementele din vector, cum se numește vectorul și câte elemente poate avea în total. </font> </p>
+
+        <p class="exp"> <font face="Lucida Bright, comic sans ms"> Exemplu: </font> </p>
+        <p> <font class="exp-content"> <i> int v[7]; </i> </font></p>
+
+        <img src="/src/vectorEx.png" target="fer3" width="35%" >
+
+        <p> 
+            <font class="text-paragraph"> Deși are un anumit spațiu rezervat la declarare, el nu trebuie să fie ocupat în întregime, poate fi ocupat parțial. Important este ca numărul de elemente specificat să nu depășească dimensiunea vectorului.</font>
+        </p>
+        
+        <h2> Cum să adaugi elemente în vector? </h2>
+        <p>
+            <font class="text-paragraph"> Există puține metode prin care putem aloca stoca valori într-un vector. Iată două dintre cele mai comune metode: </font>
+        </p>
+        <p> <font class="enumeration-item" face= "Lucida Bright, comic sans ms"> <b> 1. Inițializare directă </font> </b></p>
+        <p> <font class="exp-content"> <i> int a[7] = {1, 5, 6, 45, 2, 200, 1}; </i> </font> </p>
+
+        <p> <font class="enumeration-item" face= "Lucida Bright, comic sans ms"> <b> 2. Metoda de introducere a utilizatorului </font> </b></p>
+        <p> <font class="exp-content"> <i> int a[7]; </i> </font> </p>
+        <p> <font class="exp-content"> <i> for (int i = 0; i < 7; i++) </i> </font> </p>
+        <p> <font class="exp-content"> <i> cin >> a[i]; </i> </font> </p>
+        
+        <h2> Afișarea unui vector </h2>
+        <p> <font class="exp-content"> <i> int a[3] = {1, 2, 3}; </i> </font> </p>
+        <p> <font class="exp-content"> <i> for (int i = 0; i < 3; i++) </i></3> </font> </3></p>
+        <p> <font class="exp-content"> <i> cout << a[i] << ' '; </font> </i> </p>
+        
+        <h2> Schimbarea unei valori </h2>
+        <p>
+            <font class="text-paragraph"> Dacă dorim să schimbăm un anumit element stocat într-o matrice, vom folosi următoarea metodă: </font>
+        </p>
+        <p> <font class="exp-content"> <i> int a[5] = {1, 2, 3, 4, 5}; </i> </font> </p>
+        <p> <font class="exp-content"> <i> a[0] = 10; </i> </font> </p>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+img {
+    margin-bottom: 10px;
+}
+#page {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#page-content {
+    max-width: 700px;
+
+    & h2 {
+        margin-top: 38px;
+        margin-bottom: 35px;
+    }
+
+    & .exp {
+        margin-top: 50px;
+    }
+
+    & .exp-content {
+        font-size: 1.35rem;
+        margin-top: 50px;
+    }
+
+    & .text-paragraph {
+        font-size: 1.25rem;
+    }
+
+    & .enumeration-item {
+        font-size: 1rem;
+    }
+
+    & .tabel {
+        margin-bottom: 70px;
+    }
+
+}

@@ -1,0 +1,9 @@
+	Cream un site cu legaturi relative, pe care il incarcam pe stick. Nota va fi pana la 8 pentru site, iar cele 2 puncte vor fi pentru prezentarea elementelor site-ului.
+	Tema: continut didactic, etichete, din informatica (vector, interclasare, sortare)
+	Structura: un fisier cu frame-uri, un fisier cu meniu, o pagina cu continut, drepturi de autor (cu ©), nume, prenume, clasa si an;
+	Restrictii: 6 pagini in total, termen limita: joi, 7 martie;
+
+
+
+Notite: in frame-ul 3 sa nu mai fie link-uri, ci direct informatiile
+- la tipuri de sortari nu am lista cum trebuie

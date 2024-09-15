@@ -1,0 +1,73 @@
+<head>
+        <link rel="stylesheet" href="page.css">
+</head>
+        
+<html>
+<title>
+</title>
+
+<body id="page">
+    <img src="/src/cautare binara poza 2.jpg"  width="100%" height="80%"> </img>
+    <main id="page-content" align="center">
+
+        <h2> Ce este ea? </h2>
+        
+        <p>
+            <font class="text-paragraph"> Căutarea binară este un algoritm eficient de căutare, folosit de obicei pentru a căuta o anumită valoare într-un vector sortat, de dimensiuni mari. </font>
+        </p>
+        
+        <h2> Cum funcționează? </h2>
+    
+    <p>
+    <font class="text-paragraph"> Căutarea binară funcționează prin divizarea repetată a listei în jumătate și compararea elementului căutat cu elementul din mijlocul listei. În funcție de rezultatul acestei comparații, căutarea continuă în jumătatea corespunzătoare a listei inițiale. Procesul se repetă până când elementul căutat este găsit sau până când lista se reduce la o dimensiune minimă. Algoritmul de căutare binară folosește tehnica ”divide et impera” sau ”divide și cucerește”. Ideea de bază a acestui algoritm este simplă: după fiecare pas, lista sau vectorul de căutare este împărțit în două părți egale. Această abordare are avantajul că, odată ce lista este ordonată, numărul de comparații necesare pentru a găsi un element este redus semnificativ. </font>
+</p>
+
+    <p class="exp">
+        <font face="Lucida Bright"> Exemplu: </font>
+    </p>
+    <img src="/src\cautare_binara_ex.png" width="500"> </img>
+
+    <h2> Etapele algoritmului de căutare binară: </h2>
+
+    <p>
+        <font class="text-paragraph"> Pentru a înțelege cum funcționează acest algoritm, să parcurgem pașii săi de bază: </font>
+    </p>
+
+    <p>
+        <font class="text-paragraph"> <b> 1. Inițializarea variabilelor </b> </font>
+    </p>
+    <p>
+        <font class="text-paragraph"> Înainte de a începe căutarea, avem nevoie de trei variabile: </font>
+    </p>
+    <p>
+        <font class="text-paragraph"> <i> Left </i> – reprezintă începutul intervalului în care căutăm; </font>
+    </p>
+    <p>
+        <font class="text-paragraph"> <i> Mid </i> – reține mijlocul intervalului; </font>
+    </p>
+    <p>
+        <font class="text-paragraph"> <i> Right </i> – indică sfârșitul intervalului de căutare. </font>
+    </p>
+
+    <h2> 2. Verificarea elementului mijlociu </h2>
+    <p>
+        <font class="text-paragraph"> În fiecare pas, algoritmul verifică dacă elementul din mijlocul intervalului (V[Mid]) este egal cu elementul căutat (x). Dacă da, atunci algoritmul a găsit elementul și căutarea se încheie.
+    </p>
+    </p>
+    <h2> <font class="text-paragraph"> 3. Actualizarea intervalului </font> </h2>
+    <p>
+        <font class="text-paragraph"> Dacă elementul din mijloc (V[Mid]) nu este cel căutat, intervalul de căutare este actualizat: </font>
+    </p>
+    <p>
+        <font class="text-paragraph"> Dacă X este mai mic decât V[Mid], atunci Right devine Mid – 1. </font>
+    </p>
+    <p>
+        <font class="text-paragraph"> Dacă X este mai mare decât V[Mid], atunci Left devine Mid + 1. </font>
+    <h2> <font class="text-paragraph"> 4. Repetarea până la găsire </font> </h2>
+    <p>
+        <font class="text-paragraph"> Acești pași se repetă atât timp cât Left <= Right. Dacă acest lucru nu mai este valabil, înseamnă că elementul nu se află în lista dată. </font>
+    </p>
+    
+</main>
+</body>
+</html>

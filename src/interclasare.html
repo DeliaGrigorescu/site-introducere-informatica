@@ -1,0 +1,53 @@
+<head>
+    <link rel="stylesheet" href="page.css">
+</head>
+
+
+<html>
+<title>
+
+</title>
+
+<body id="page">
+    <img src="/src/poza 5.png" width="100%"> </img>
+    <main id="page-content" align="center">
+        <h2> Ce este interclasarea? </h2>
+        <p>
+            <font class="text-paragraph"> Fiind dați doi vectori sortați, prin interclasarea lor se înțelege construirea unui al treilea vector sortat, care să conțină toate elementele acestora. </font>
+        </p>
+        
+        <h2> De ce este eficientă? Cum funcționează? </h2>
+        
+        <p>
+            <font class="text-paragraph"> Eficiența acestui algoritm ca timp constă în faptul că cei doi vectori dați sunt parcurși simultan, comparându-se constant valoarile de pe poziția curentă a fiecăruia și alegând-o pe cea mai mică, dacă al treilea vector este sortat crescător, sau cea mai mare, dacă al treilea vector este sortat descrescător. </font>
+        </p>
+        
+        <p class="exp">
+            <font face="Lucida Bright, comic sans ms"> De pildă: </font>
+        </p>
+        <img src="/src/interclasare ex.png" width="60%"> </img>
+
+        <p>
+            <font class="text-paragraph" face="Lucida Bright" size="+3"> <b> Rezolvare: </b> </font>
+        </p>
+        <p>
+            <font class="text-paragraph"> 1) Citim cei doi vectori, pe rând; </font>
+        </p>
+        <p>
+            <font class="text-paragraph"> 2) Ne vom lua un al treilea vector, în care vom adăuga câte un element, comparând în paralel elementele celor doi vectori și adăugând cel mai mic dintre cele două elemente; </font>
+        </p>
+        </p>
+        <p>  
+            <font class="text-paragraph"> 3) Cu ajutorul variabile <i> i </i> vom parcurge primul vector, iar cu <i> j </i> vom parcurge cel de-al doilea; </font>
+        </p>
+        </p>
+            <font class="text-paragraph"> 4) În momentul în in care vom adăuga un element dintr-un vector, vom crește și indicele corespunzator, odată cu indicele celui de-al treilea vector, notat cu <i> k </i>; </font>
+        </p>
+        </p>
+        <p>
+            <font class="text-paragraph"> 5) La final, vom verifica dacă ne-au mai rămas elemente într-unul dintre vectori, iar dacă răspunsul este afirmativ, atunci le vom adăuga în cel de-al treilea vector. </font>
+        </p>
+    </main>
+</body>
+
+</html>
